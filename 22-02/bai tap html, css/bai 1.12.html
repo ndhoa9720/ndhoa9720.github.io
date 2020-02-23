@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và điều khiển (tt)</title>
+    
+</head>
+<body>
+    <form action="#" method="post" name="dang nhap">
+        <table border="1" cellpadding="5" style="background-color: rgb(47, 255, 158); ">
+            <tr>
+                <th colspan="2" align="center" style="background-color: white;"><h2>Phiếu đăng ký chương trình khuyến mại</h2></th>
+            </tr>
+         
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" name="txtname" size="30"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" name="txtadd" size="30"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="text" name="txtphone" size="30"></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td><input type="radio" name="rdobt" size="10">Nam&nbsp;&nbsp;<input type="radio" name="rdobt" size="10">Nữ</td>
+            </tr>
+            <tr>
+                <td>Nghề nghiệp</td>
+                <td><select id="job">
+                    <option value="Giáo viên">Giáo viên</option>
+                    <option value="Công an">Công an</option>
+                    <option value="lập trình viên">Lập trình viên</option>
+                    <option value="nhân viên">Nhân viên</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Chọn sản phẩm tham gia</td>
+                <td>
+                    <select id="product">
+                        <option value="kem đánh răng">Kem đánh răng</option>
+                        <option value="Bột giặt">Bột giặt</option>
+                        <option value="Dầu gội">Dầu gội</option>
+                        <option value="sữa tắm">Sữa tắm</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Số người tham gia dự đoán</td>
+                <td><input type="text" name="txtpeople" size="5"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="button" onclick="myFuction()" value="Đồng ý"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><p id="hoa" style="color: red;"></p>
+                    
+                </td>
+            </tr>
+     
+        </table>
+    </form>
+    <script>
+        function myFuction() {
+        
+        document.getElementById("hoa").innerHTML = "bạn đã đăng ký thành công!!!";
+        }
+        </script>
+</body>
+</html>
