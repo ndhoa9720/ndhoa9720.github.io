@@ -1,0 +1,25 @@
+h2{
+    color: rgb(238, 16, 138);
+    text-align: center;
+}
+span{
+    background-color: rgb(238, 16, 138);
+    color: white;
+}
+img{
+    height: 20%;
+    width: 20%;
+    vertical-align: baseline;
+    float: left;
+}
+ol{
+    margin-left: 20%;
+}
+hr{
+    margin-left: 3%;
+}
+p{
+    background-color: rgb(252, 201, 241);
+    display: inline-block;
+}
+

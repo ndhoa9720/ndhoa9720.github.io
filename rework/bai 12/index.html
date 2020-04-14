@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h2>Phiếu đăng ký tham gia chương trình khuyến mại</h2>
+    <form action="#" method="GET" name="phieu">
+        <table>
+            <tr>
+                <td>Họ và tên</td>
+                <td>
+                    <input type="text" size="35px" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td>
+                    <input type="text" size="35px" name="add">
+                </td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td>
+                    <input type="text" name="phone" size="35px">
+                </td>
+            </tr>
+            <tr>
+                <td>Phái</td>
+                <td>
+                    <input type="radio" name="man">Nam
+                    <input type="radio" name="nu">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Nghề nghiệp</td>
+                <td>
+                    <select id="job">
+                        <option value="Giáo viên">Giáo viên</option>
+                        <option value="Lập trình viên">Lập trình viên</option>
+                        <option value="Bác sĩ">Bác sĩ</option>
+                        <option value="Ca sĩ">Ca sĩ</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Chọn sản phẩm tham gia</td>
+                <td>
+                    <select id="product">
+                        <option value="Kem đánh răng">Kem đánh răng</option>
+                        <option value="Bột giặt">Bột giặt</option>
+                        <option value="Dầu gội đầu">Dầu gội đầu</option>
+                        <option value="Sữa tắm">Sữa tắm</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Số người dự đoán tham gia</td>
+                <td>
+                    <input type="text" name="people">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button onclick="bam()">Đồng ý</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <p id="success" style="text-align: center; color:red; display: none;" >
+                        Bạn đã đăng ký thành công!!!
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script>
+        function bam(){
+            event.preventDefault()
+            var a = document.getElementById('success')
+            a.style.display= "block "
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body{
+    
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 100px 100px;
+    color: #008888;
+}
+.first{
+    color: #ffffff;
+    background-color: #339999;
+    font-weight: bold;
+    font-style: italic;
+}
+h2{
+    text-align: center;
+}

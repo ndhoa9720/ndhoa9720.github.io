@@ -1,0 +1,35 @@
+.td3{
+    color: #ff0000;
+    background-color: #ffbbbb;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.td2{
+    height: 2px;
+}
+.td1a{
+    text-align: right;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+}
+/* .td1b{
+    float: inline-end;
+} */
+img{
+    height: 100px;
+    width: 100px;
+}
+table, td{
+    border: 1px solid #ffbbbb;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+div>p{
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: bold;
+}

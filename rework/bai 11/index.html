@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <h2>Đăng nhập</h2>
+   <table align="center">
+       <tr>
+           <td>Mã người dùng:</td>
+           <td>
+               <input type="text" name="username" id="idname" size="35px">
+            </td>
+       </tr>
+       <tr>
+           <td>Mật khẩu</td>
+           <td>
+               <input type="password" name="password" size="35px">
+           </td>
+       </tr>
+       <tr>
+           <td colspan="2" align="center">
+               <button onclick="bam()">Đồng ý</button>
+           </td>
+       </tr>
+       <tr>
+           <td colspan="2">
+               <p id="xit" style="color: red; text-align: center; display: none;"></p>
+           </td>
+       </tr>
+   </table>
+   <script>
+       function bam(){
+           event.preventDefault()
+          var a = document.getElementById("xit")
+          var b = document.getElementById("idname")
+          a.innerHTML = b.value
+          a.style.display = "block"
+       }
+   </script>
+</body>
+</html>

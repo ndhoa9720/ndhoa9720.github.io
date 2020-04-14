@@ -1,0 +1,12 @@
+h2{
+    color: brown;
+    text-align: center;
+}
+table, td, tr{
+    border: 1px solid brown;
+}
+table{
+    width: 400px;
+    height: 100px;
+    background-color: aquamarine;
+}

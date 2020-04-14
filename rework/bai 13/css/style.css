@@ -1,0 +1,19 @@
+h2{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+}
+table, td {
+    border: 1px solid blue;
+}
+table{
+    border-collapse: collapse;
+    background-color: yellow;
+    color: blue;
+    border-spacing: 0px;
+    width: 50%;
+}
+fieldset{
+    border-color: brown;
+    width: 350px;
+}

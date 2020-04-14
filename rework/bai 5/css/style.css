@@ -1,0 +1,20 @@
+.first{
+    text-decoration: underline;
+    display: inline;
+}
+.second{
+    font-style: italic;
+    display: inline;
+}
+.third{
+    color: red;
+    display: inline;
+}
+.forth{
+    background-color: gray;
+   
+    color: blue;
+}
+h2{
+    color: green;
+}

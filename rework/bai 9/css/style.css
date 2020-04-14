@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    color: #cc0033;
+    font-weight: bold;
+}
+table, td, th {
+    border: 1px solid black;
+    padding: 3px 3px;
+}
+th{
+    text-align: center;
+    color: white;
+    background-color: #cc0033;
+}
+/* td:first-child{
+    text-align: center;
+    color: #cc0033;
+} */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    height: 300px;
+    width: 400px;
+}
+td:nth-last-child(-n+2){
+    text-align: center;
+}

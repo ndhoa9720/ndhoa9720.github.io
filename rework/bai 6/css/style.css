@@ -1,0 +1,28 @@
+h2{
+    color: orange;
+    border: orange;
+    border-style: double;
+    border-width: 5px;
+    text-align: center;
+}
+p:first-letter{
+    color: red;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.first{
+    background-color: yellow;
+    font-style: italic;
+}
+h3{
+    background-color: orange;
+    color: white;
+    text-align: right;
+}
+font{
+    color: red;
+}
+mark{
+   font-style: italic; 
+}

@@ -1,0 +1,12 @@
+h2{
+    color: green;
+    font-weight: bold;
+}
+table, td {
+    border: 1px solid black;
+    background-color: rgb(119, 253, 119);
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
