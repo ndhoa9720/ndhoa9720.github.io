@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+}
+.table td{
+    border: 1px solid grey;
+}
+.table tr td li {
+    padding: 5px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+/* img{
+    z-index: -1;
+    position: absolute;
+} */
+
+
+
+/* class phần đầu trang */
+#header span:first-child{
+    font-size: 50px;
+}
+#header span:nth-child(2){
+    font-size: 40px;
+}
+#header .thumbnail1{
+    z-index: -1;
+   
+    float: right;
+}
+#header td{
+    padding: 0px;
+    color: blue;
+}
+#header td h1{
+    text-align: center;
+    color: blue;
+    margin: 20px;
+}
+
+/* class phần tiêu đề */
+.sub-title{
+    background-color: blue;
+    color: white;
+}
+.thumbnail2 .label, .thumbnail3 .label{
+    color: blue;
+    margin: 3px;
+    font-weight: bold;
+}
+
+
+/* class phần nội dung */
+.thumbnail2 .left-img{
+    height: 100px;
+    width: 100px;
+    margin: 3px;
+    float: left;
+}
+.thumbnail2::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.thumbnail3 .right-img{
+    float: right;
+    width: 100px;
+    height: 100px;
+    width: 15%;
+    display: inline-block;
+}
+.thumbnail3 .left-list{
+    margin-right: 0px;
+    display: inline-block;
+    width: 70%;
+}
+.menu-wrapper ul{
+    margin-top: 20px;
+}
+.backtotop{
+    float: right;
+    background-color: grey;
+    text-decoration: underline;
+}
+.menu-wrapper{
+    vertical-align: baseline;
+    min-width: 250px;
+}
